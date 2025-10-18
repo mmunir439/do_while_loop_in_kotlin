@@ -5,7 +5,21 @@ fun dowhile(){
     var x=1;
     do{
         x++;
-        println("hi muhammad munir")
+        println("what is your name?")
+        var name=readLine()!!;
+        println("what is your age?")
+        var age=readLine()!!.toInt();
+        println("what is your current semester now?")
+        var semester=readLine()!!.toInt();
+        println("which city you belong?")
+        var city=readLine()!!;
+        println("what is your degree name?")
+        var degename=readLine()!!;
+        println("My name is ${name}")
+        println("I am doing  ${degename}")
+        println("I am from $city");
+        println("I am in $semester semester")
+        println("and I am $age years old")
     }while(x<3)
 }
 fun main(){
